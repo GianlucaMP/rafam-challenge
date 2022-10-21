@@ -8,14 +8,14 @@ Replica de una pantalla de operacion del proyecto Rafam, desarrollada con React.
 ## Back-end:
 Pequeña api llamada "Friends Lessons System", desarrollada con Django.
 Consta de las sgts rutas:
-/admin/   -> va al login, user de prueba (username:admin, password:admin123)
-/api/users/                           -> list_users
-/api/users/<str:username>/            -> get_user
-/api/user-friendships/<str:username>/ -> user_friendships
-/api/user-lessons/<str:username>/     -> user_lessons
-/friendships/                         -> list_friendships
-/lessons/                             -> list_lessons
-/weather/  -> ruta que integra una api externa para consultar datos del clima
+* /admin/   -> va al login, user de prueba (username:admin, password:admin123)
+* /api/users/                           -> list_users
+* /api/users/<str:username>/            -> get_user
+* /api/user-friendships/<str:username>/ -> user_friendships
+* /api/user-lessons/<str:username>/     -> user_lessons
+* /friendships/                         -> list_friendships
+* /lessons/                             -> list_lessons
+* /weather/  -> ruta que integra una api externa para consultar datos del clima
 
 ## Hacer un git clone del proyecto
 
@@ -37,10 +37,10 @@ docker-compose up
 
 NOTA: las aplicaciones tambien se pueden levantar como en cualquier entorno de desarrollo,
 ### Django: 
-*crear un entorno virtual con virtualenv y activarlo 
-*instalar las dependencias del requirements txt
-*python manage.py runserver
+* crear un entorno virtual con virtualenv y activarlo 
+* instalar las dependencias del requirements txt
+* python manage.py runserver
 
 ### React:
-*npm insatll
-*npm start
+* npm insatll
+* npm start
