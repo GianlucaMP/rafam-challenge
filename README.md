@@ -42,5 +42,5 @@ NOTA: las aplicaciones tambien se pueden levantar como en cualquier entorno de d
 * python manage.py runserver
 
 ### React:
-* npm insatll
+* npm install
 * npm start
