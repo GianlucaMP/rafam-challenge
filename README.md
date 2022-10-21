@@ -36,11 +36,11 @@ docker-compose up
 ```
 
 NOTA: las aplicaciones tambien se pueden levantar como en cualquier entorno de desarrollo,
-###Django: 
+### Django: 
 *crear un entorno virtual con virtualenv y activarlo 
 *instalar las dependencias del requirements txt
 *python manage.py runserver
 
-###React:
+### React:
 *npm insatll
 *npm start
