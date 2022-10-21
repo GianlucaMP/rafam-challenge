@@ -1,0 +1,28 @@
+.sidebar {
+	background-color: #12416F;
+	color: white;
+	position: absolute;
+	width: 250px;
+	left: 0px;
+	top: 0px;
+	font-size: 1rem;
+	z-index: 100;
+	border-right: solid rgb(39, 39, 39) 1px;
+}
+
+.sidebarText {
+	font-size: 0.8rem;
+	font-weight: 400;
+	padding-left: 1rem;
+}
+
+.buttonsContainer {
+	width: 235px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+hr {
+	border-width: 1px;
+	border-color: white;
+}

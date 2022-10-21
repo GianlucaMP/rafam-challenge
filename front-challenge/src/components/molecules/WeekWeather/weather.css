@@ -1,0 +1,13 @@
+.weatherContainer {
+	width: 220px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.minWeatherNum {
+	color: rgb(176, 239, 255);
+}
+
+.maxWeatherNum {
+	color: rgb(255, 121, 121);
+}

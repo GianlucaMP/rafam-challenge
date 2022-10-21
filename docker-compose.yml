@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  back:
+    build: 
+      context: ./back-challenge
+      dockerfile: Dockerfile
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    container_name: back_service
+    volumes:
+      - ./back-challenge:/home/back-app
+    ports:
+      - "8000:8000"
+  front:
+    build:
+      context: ./front-challenge
+      dockerfile: Dockerfile
+    container_name: front_service
+    volumes:
+      - ./front-challenge:/home/front-app
+      - ./front-challenge/node_modules
+    ports:
+      - 3000:3000

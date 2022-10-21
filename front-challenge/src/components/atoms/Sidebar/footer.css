@@ -1,0 +1,16 @@
+.footerContainer {
+	margin: auto;
+	width: 210px;
+}
+
+.footerImageContainer {
+	padding-top: 1rem;
+	margin-right: 0px;
+	float: left;
+}
+
+.footerTextContainer {
+	float: right;
+	margin: 0px;
+	width: 10.5rem;
+}

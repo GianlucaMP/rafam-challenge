@@ -1,0 +1,19 @@
+.pageContainer {
+	position: absolute;
+	right: 0px;
+	left: 248px;
+}
+
+.siteTitle {
+	margin-left: 2rem;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #3D3E40;
+}
+
+.siteContent {
+	width: 85%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,14 @@
+.logoContainer {
+	margin: 1rem auto 2rem;
+	width: 180px;
+}
+
+.logoImageContainer {
+	float: left;
+	margin-top: 1.5rem;
+}
+
+.logoTextContainer {
+	float: right;
+	margin-top: 2.5rem;
+}

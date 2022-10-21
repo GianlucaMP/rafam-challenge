@@ -1,0 +1,31 @@
+.sessionBarContainer {
+	background: rgba(173, 204, 236, 0.05);
+	width: 100%;
+	height: 3.5rem;
+	margin: 0px;
+	margin-top: -8px;
+}
+
+.locationContainer {
+	color: rgba(120, 126, 143, 1);
+	font-size: 1rem;
+	font-weight: 400;
+	padding: 1.25rem 1.75rem 0rem;
+	float: left;
+}
+
+.sessionToolsContainer {
+	padding: 0.25rem 2rem 0rem;
+	float: right;
+}
+
+.avatar {
+	border-radius: 999px;
+	height: 2.5rem;
+	margin-top: 0.25rem;
+}
+
+.sessionButtons {
+	float: left;
+	margin: 0.75rem 1rem 0rem;
+}
